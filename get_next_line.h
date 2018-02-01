@@ -6,7 +6,7 @@
 /*   By: jjolivot <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/09 18:06:42 by jjolivot          #+#    #+#             */
-/*   Updated: 2018/01/29 22:29:36 by jjolivot         ###   ########.fr       */
+/*   Updated: 2018/01/31 18:10:09 by jjolivot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,6 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include "libft/libft.h"
-
-typedef struct	var
-{
-	char		buff[BUFF_SIZE + 1];
-	int			ret;
-	int			i;
-	char		*tmp;
-}				var;
 
 int		get_next_line(const int fd, char **line);
 
